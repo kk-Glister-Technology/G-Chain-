@@ -121,6 +121,6 @@ G-Chain is licensed under the **MIT License**. See [LICENSE](LICENSE) for detail
 
 ---
 
-NovaChain is designed to be the **future of high-performance blockchains**, integrating **speed, privacy, and security** in a scalable, decentralized ecosystem.
+G-Chain is designed to be the **future of high-performance blockchains**, integrating **speed, privacy, and security** in a scalable, decentralized ecosystem.
 
 Let's **build the future together!** 🚀
