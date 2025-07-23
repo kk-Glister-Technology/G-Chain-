@@ -38,7 +38,7 @@ This project uses:
 
 ## 📁 Project Structure
 
-gloxx-node/ 
+gloxx-node/
 ├── src/ 
 │   
 ├── main.rs          
@@ -73,28 +73,27 @@ gloxx-node/
 
 1. **Install Rust**
 
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   ```bash
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh.             
 
 
 2. **Clone the Repo**
 
-```bash
-git clone https://github.com/gloxxchain/gloxx-node.git
-cd gloxx-node
+   ```bash
+   git clone https://github.com/gloxxchain/gloxx-node.git
+   cd gloxx-node
 
 
 3. **Build the Node**
 
 
-```bash
-cargo build --release
+   ```bash
+   cargo build --release
 
 4. **Run in Dev Mode**
 
-```bash
-./target/release/gloxx-node run --dev
-
+   ```bash
+   ./target/release/gloxx-node run --dev
 
 ---
 
@@ -103,14 +102,14 @@ cargo build --release
 
 Use --help to explore commands:
 
-```bash
-gloxx-node --help
+   ```bash
+   gloxx-node --help
 
 
 Example full command:
 
-```bash
-gloxx-node run --port 40333 --data-dir ./gloxxdata --bootnodes /ip4/127.0.0.1/tcp/40333
+   ```bash
+   gloxx-node run --port 40333 --data-dir .gloxxdata --bootnodes /ip4/127.0.0.1/tcp/40333
 
 
 ---
@@ -127,34 +126,39 @@ Nodes connect peer-to-peer.
 
 🧑‍💻 Useful Development Commands
 
-```bash
-# Format code
-cargo fmt
+   ```bash
+   # Format code
+   cargo fmt
 
-```bash
-# Run all tests
-cargo test
+---
 
-```bash
-# Check for compile errors
-cargo check
+   ```bash
+   # Run all tests
+   cargo test
+
+---
+
+   ```bash
+   # Check for compile errors
+   cargo check
 
 
 ---
 
 🔌 (Planned) JSON-RPC Format
 
-```json
-POST /rpc
-{
-  "jsonrpc": "2.0",
-  "method": "get_balance",
-  "params": ["0xUSERADDRESS"],
-  "id": 1
-}
+   ```json
+   POST /rpc
+   {
+     "jsonrpc": "2.0",
+     "method": "get_balance",
+     "params": ["0xUSERADDRESS"],
+     "id": 1
+   }
+
+---
 
 Other RPC methods (coming soon): send_tx, get_block, get_tx, subscribe, etc.
-
 
 ---
 
