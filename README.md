@@ -1,4 +1,3 @@
-
 ---
 
 # 🌐 Gloxx Chain Node
@@ -104,7 +103,7 @@ gloxx-node/
 
    ```bash
    gloxx-node --help
-
+```
 
 Example full command:
 
