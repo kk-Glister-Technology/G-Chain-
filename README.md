@@ -38,7 +38,7 @@ This project uses:
 
 ## 📁 Project Structure
 
-gloxx-node/
+gloxx-node/                                       
 ├── src/
 │
 ├── main.rs  
@@ -114,7 +114,7 @@ Example full command:
 
 ---
 
-🛰 How This Node Stays Decentralized
+🛰 *How This Node Stays Decentralized*
 
 
 Anyone can clone, build, and run the exact same code independently.
@@ -124,7 +124,7 @@ Nodes connect peer-to-peer.
 
 ---
 
-🧑‍💻 Useful Development Commands
+🧑‍💻 *Useful Development Commands*
 
    ```bash
    # Format code
