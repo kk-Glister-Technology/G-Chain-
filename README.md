@@ -38,7 +38,21 @@ This project uses:
 
 ## 📁 Project Structure
 
-gloxx-node/ ├── src/ │   ├── main.rs          // App entry │   ├── config.rs        // CLI config & setup │   ├── blockchain/      // Blocks, state transitions │   ├── transaction/     // Transaction format, mempool │   ├── wallet/          // Wallet keys & signatures │   ├── network/         // P2P & networking (planned) │   ├── rpc/             // JSON-RPC interface (planned) │   ├── utils/           // Helper functions ├── tests/               // Integration tests ├── Cargo.toml           // Rust package config ├── README.md            // You're here!
+gloxx-node/ 
+├── src/ 
+│   
+├── main.rs          
+│   ├── config.rs         
+│   ├── blockchain/      
+│   
+├── transaction/    
+│   ├── wallet/           
+│   ├── network/          
+│   ├── rpc/             
+│   ├── utils/            
+├── tests/                
+├── Cargo.toml            
+├── README.md            
 
 ---
 
@@ -58,39 +72,44 @@ gloxx-node/ ├── src/ │   ├── main.rs          // App entry │   �
 ## 🚀 Getting Started
 
 1. **Install Rust**
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-2. Clone the Repo
 
+2. **Clone the Repo**
 
-
+```bash
 git clone https://github.com/gloxxchain/gloxx-node.git
 cd gloxx-node
 
-3. Build the Node
+
+3. **Build the Node**
 
 
-
+```bash
 cargo build --release
 
-4. Run in Dev Mode
+4. **Run in Dev Mode**
 
-
-
+```bash
 ./target/release/gloxx-node run --dev
 
 
 ---
 
+
 🧮 CLI Usage
 
 Use --help to explore commands:
 
+```bash
 gloxx-node --help
+
 
 Example full command:
 
+```bash
 gloxx-node run --port 40333 --data-dir ./gloxxdata --bootnodes /ip4/127.0.0.1/tcp/40333
 
 
@@ -98,30 +117,25 @@ gloxx-node run --port 40333 --data-dir ./gloxxdata --bootnodes /ip4/127.0.0.1/tc
 
 🛰 How This Node Stays Decentralized
 
-Although you can host this node on a VPS, the project is decentralized because:
 
 Anyone can clone, build, and run the exact same code independently.
 
-Nodes connect peer-to-peer, not through centralized APIs.
-
-No node depends on a central VPS unless you explicitly configure it.
-
-Users run their own RPC endpoints locally.
-
-
-If you deploy on a VPS, that’s just one instance. Real decentralization comes when many people run nodes around the world.
+Nodes connect peer-to-peer.
 
 
 ---
 
 🧑‍💻 Useful Development Commands
 
+```bash
 # Format code
 cargo fmt
 
+```bash
 # Run all tests
 cargo test
 
+```bash
 # Check for compile errors
 cargo check
 
@@ -130,6 +144,7 @@ cargo check
 
 🔌 (Planned) JSON-RPC Format
 
+```json
 POST /rpc
 {
   "jsonrpc": "2.0",
@@ -188,8 +203,6 @@ We welcome all contributors. To contribute:
 5. Open a Pull Request
 
 
-
-
 ---
 
 📜 License
@@ -207,8 +220,7 @@ Website: (coming soon)
 
 Docs: (coming soon)
 
-Telegram: (coming soon)
-
+Telegram: (https://t.me/gloxx_chain)
 
 
 ---
@@ -216,13 +228,11 @@ Telegram: (coming soon)
 👤 Maintainer
 
 Built with ❤️ by the Gloxx Chain Team
-Lead Maintainer: @YourHandle
-
+Lead Maintainer: @Encryptoknight
 
 ---
 
 > Join us in building the future of decentralized systems — start your Gloxx node today 🌍🚀
-
 
 
 ---
