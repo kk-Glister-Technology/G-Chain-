@@ -109,7 +109,7 @@ Example full command:
 
    ```bash
    gloxx-node run --port 40333 --data-dir .gloxxdata --bootnodes /ip4/127.0.0.1/tcp/40333
-
+```
 
 ---
 
@@ -118,8 +118,9 @@ Example full command:
 
 Anyone can clone, build, and run the exact same code independently.
 
+```
 Nodes connect peer-to-peer.
-
+```
 
 ---
 
@@ -128,19 +129,19 @@ Nodes connect peer-to-peer.
    ```bash
    # Format code
    cargo fmt
-
+```
 ---
 
    ```bash
    # Run all tests
    cargo test
-
+```
 ---
 
    ```bash
    # Check for compile errors
    cargo check
-
+```
 
 ---
 
@@ -154,7 +155,7 @@ Nodes connect peer-to-peer.
      "params": ["0xUSERADDRESS"],
      "id": 1
    }
-
+```
 ---
 
 Other RPC methods (coming soon): send_tx, get_block, get_tx, subscribe, etc.
