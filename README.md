@@ -39,20 +39,20 @@ This project uses:
 ## 📁 Project Structure
 
 gloxx-node/
-├── src/ 
-│   
-├── main.rs          
-│   ├── config.rs         
-│   ├── blockchain/      
-│   
-├── transaction/    
-│   ├── wallet/           
-│   ├── network/          
-│   ├── rpc/             
-│   ├── utils/            
-├── tests/                
-├── Cargo.toml            
-├── README.md            
+├── src/
+│
+├── main.rs  
+│   ├── config.rs
+│   ├── blockchain/
+│
+├── transaction/
+│   ├── wallet/
+│   ├── network/
+│   ├── rpc/
+│   ├── utils/
+├── tests/
+├── Cargo.toml
+├── README.md
 
 ---
 
@@ -100,7 +100,7 @@ gloxx-node/
 
 🧮 CLI Usage
 
-Use --help to explore commands:
+**Use --help to explore commands:**
 
    ```bash
    gloxx-node --help
